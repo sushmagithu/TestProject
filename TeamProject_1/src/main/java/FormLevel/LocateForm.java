@@ -32,7 +32,8 @@ public class LocateForm  extends Base1
 	    	name.sendKeys(namee);
 	    	message.sendKeys(msg);
 	    	submitbtn.click();
-	    	driver.navigate().back();	    	
+	    	driver.navigate().back();	
+	    	driver.navigate().back();
 	    	String link1xpath = prop.getProperty("link1");
 			driver.findElement(By.linkText(link1xpath)).click();
 }

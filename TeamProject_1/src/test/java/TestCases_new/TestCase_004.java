@@ -8,7 +8,6 @@ import FormLevel.LocateForm;
 
 public class TestCase_004 extends Base1{
 	public LocateForm lb;
-	//public LoginPageNew lp1;
 	
 		public TestCase_004() throws IOException {
 			super();
@@ -16,10 +15,8 @@ public class TestCase_004 extends Base1{
 		}
 		
 	    @BeforeMethod
-	    public void SSSetUp() throws IOException, InterruptedException {
+	    public void SSSSetUp() throws IOException, InterruptedException {
 	      
-	       // initialization();
-	       
 	        lb=new LocateForm();   
 	    }
 	    @Test

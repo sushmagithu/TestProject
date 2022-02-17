@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.102 sec <<< FAILURE! - in TestSuite
-scrollTo(TestCases_new.TestCase_003)  Time elapsed: 0.007 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at ScrollLevel.ScrollOperation.scrollToBottom(ScrollOperation.java:27)
-	at TestCases_new.TestCase_003.scrollTo(TestCase_003.java:28)
-
-validateForm(TestCases_new.TestCase_004)  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at FormLevel.LocateForm.form22(LocateForm.java:32)
-	at TestCases_new.TestCase_004.validateForm(TestCase_004.java:28)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.566 sec - in TestSuite

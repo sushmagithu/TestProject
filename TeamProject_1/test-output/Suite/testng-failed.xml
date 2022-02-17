@@ -3,12 +3,24 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="TestCases_new.LoginPageTest">
+        <methods>
+          <include name="validateLogin"/>
+          <include name="SSSetUp"/>
+        </methods>
+      </class> <!-- TestCases_new.LoginPageTest -->
       <class name="TestCases_new.TestCase_003">
         <methods>
           <include name="SetUp1"/>
           <include name="scrollTo"/>
         </methods>
       </class> <!-- TestCases_new.TestCase_003 -->
+      <class name="TestCases_new.TestCase_004">
+        <methods>
+          <include name="validateForm"/>
+          <include name="SSSSetUp"/>
+        </methods>
+      </class> <!-- TestCases_new.TestCase_004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

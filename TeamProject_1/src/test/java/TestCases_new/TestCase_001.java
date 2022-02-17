@@ -13,11 +13,11 @@ import SearchLevel.LocateElement;
 public class TestCase_001 extends Base1{
 	public LocateElement le;
 
-	//Step 1
+	
 	public TestCase_001() throws IOException {
 		super();
 	}
-	//Step2
+
 	
 	@BeforeMethod
 	public void SSetUp() throws IOException, InterruptedException {

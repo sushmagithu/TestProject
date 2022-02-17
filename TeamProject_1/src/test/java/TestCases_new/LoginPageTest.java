@@ -10,17 +10,15 @@ import HomeLevel.LoginPageNew;
 
 public class LoginPageTest extends Base1 {
 		public LoginPageNew lp;
-		//Step 1
+		
 		public LoginPageTest() throws IOException {
 			super();
-			
 		}
-		//Step2
 		
 		@BeforeMethod 
 		public void SSSetUp() throws IOException, InterruptedException {
 		
-		//initialization();
+		
 			
 			lp=new LoginPageNew();	
 		}

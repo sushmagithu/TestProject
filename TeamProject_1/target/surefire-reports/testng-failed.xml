@@ -5,16 +5,29 @@
     <classes>
       <class name="TestCases_new.TestCase_004">
         <methods>
-          <include name="SSSetUp"/>
           <include name="validateForm"/>
+          <include name="SSSSetUp"/>
         </methods>
       </class> <!-- TestCases_new.TestCase_004 -->
+      <class name="TestCases_new.LoginPageTest">
+        <methods>
+          <include name="validateLogin"/>
+          <include name="SSSetUp"/>
+        </methods>
+      </class> <!-- TestCases_new.LoginPageTest -->
       <class name="TestCases_new.TestCase_003">
         <methods>
           <include name="SetUp1"/>
           <include name="scrollTo"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- TestCases_new.TestCase_003 -->
+      <class name="TestCases_new.TestCase_001">
+        <methods>
+          <include name="validatesearch"/>
+          <include name="SSetUp"/>
+        </methods>
+      </class> <!-- TestCases_new.TestCase_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

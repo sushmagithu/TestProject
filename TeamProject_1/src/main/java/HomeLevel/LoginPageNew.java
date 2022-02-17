@@ -1,11 +1,9 @@
 package HomeLevel;
 
 import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Base1Package.Base1;
 
 public class LoginPageNew extends Base1 {
